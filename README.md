@@ -6,31 +6,31 @@ This is a simple web application that allows you to submit JSON data through a w
 
 To run this project locally, follow these steps:
 
-1. Clone this repository:
+### 1. Clone this repository:
 
 ```bash
 git clone https://github.com/Anandkr21/assignment-ExactSpace.git
 ```
 
-2. Navigate to the project directory:
+### 2. Navigate to the project directory:
 
 ```bash
 cd your-project-name
 ```
 
-3. Install the dependencies:
+### 3. Install the dependencies:
 
 ```bash
 npm install
 ```
 
-4. Start the server:
+### 4. Start the server:
 
 ```bash
 node index.js
 ```
 
-5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to access the web application.
+### 5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to access the web application.
 
 ## Usage
 
