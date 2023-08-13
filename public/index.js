@@ -34,6 +34,7 @@ Form.addEventListener("submit", async (event) => {
     }
 });
 
+
 // Rendering the input data in the 'formContainer'
 function render(data) {
     const formContainer = document.getElementById("formContainer");
@@ -45,15 +46,17 @@ function render(data) {
     for (let key in data) {
         const label = document.createElement("label");
         label.innerText = key;
-        label.setAttribute("id", "label");
+        label.setAttribute("class", "output-label"); // Add CSS class for styling
 
         const input = document.createElement("input");
         input.type = "text";
         input.name = key;
         input.value = data[key];
-        input.setAttribute("id", "textInput");
+        input.setAttribute("class", "output-input"); // Add CSS class for styling
 
-        form.append(label, input);
+        const lineBreak = document.createElement("br");
+
+        form.append(label, input, lineBreak);
     }
     formContainer.append(form);
 }
