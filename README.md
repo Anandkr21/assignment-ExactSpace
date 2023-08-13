@@ -1,4 +1,3 @@
-
 # JSON Format Web Application
 
 This is a simple web application that allows you to submit JSON data through a web form and displays the submitted JSON in a formatted manner.
@@ -56,8 +55,7 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 
 ## Contact
 
-If you have any questions or feedback, you can reach out to [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or feedback, you can reach out to [anandkumargupta.akg15@gmail.com](anandkumargupta.akg15@gmail.com).
 
 ---
 
-Please make sure to replace placeholders like `your-username`, `your-project`, and `your-email@example.com` with your actual information. You can also customize this README further by adding more details or sections as needed.
