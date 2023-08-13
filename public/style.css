@@ -1,0 +1,100 @@
+/* Apply basic styling to body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the main container */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #e57373;
+    justify-content: space-around;
+}
+
+#Form {
+    width: 150%;
+    height: 60%;
+    margin-top: 60px;
+    margin-left: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.rightContainer {
+    width: 30%;
+    height: 61%;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#box {
+    width: 100%;
+    height: 80%;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+textarea {
+    width: 50%;
+    height: 70%;
+}
+
+#inputData {
+    display: block;
+    border: 2px solid;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#submitBtn {
+    width: 90px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    background-color: #0a44ca;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    color: #0a2daa;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#formContainer {
+    border-radius: 10px;
+    padding: 20px;
+    display: none;
+    background-color: white;
+}
+
+#label {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#textInput {
+    height: 40px;
+    border: 2px solid black;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
