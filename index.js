@@ -37,6 +37,7 @@ app.listen(PORT, () => {
     try {
         console.log(`Server is running on http://localhost:${PORT}`);
     } catch (error) {
+        console.log("Unable to connect with mongoDB");
         console.error(error.message);
     }
 });
