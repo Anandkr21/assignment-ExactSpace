@@ -40,6 +40,7 @@ node index.js
 
 ## Technologies Used
 
+- Node.js
 - Express.js
 - HTML
 - CSS
